@@ -65,7 +65,7 @@
       }
 
       // get student list on initial load
-      axios.get("http://localhost:5050/api/students").then((res) => {
+      axios.get("/api/students").then((res) => {
         putTheThingInTheView(res);
       });
 
